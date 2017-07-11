@@ -1,0 +1,24 @@
+{
+  "name": "meteor-blaze-to-react",
+  "version": "2.0.0",
+  "description": "Refactored blaze-to-react",
+  "main": "lib.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pletcher/meteor-blaze-to-react.git"
+  },
+  "keywords": [
+    "meteor",
+    "blaze",
+    "react"
+  ],
+  "author": "@pletcher (based on @gwendall's work)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pletcher/meteor-blaze-to-react/issues"
+  },
+  "homepage": "https://github.com/pletcher/meteor-blaze-to-react#readme"
+}
