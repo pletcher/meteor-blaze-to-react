@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createContainer } from 'meteor/react-meteor-data';
 
-class BlazeToReact extends React.Component {
+class BlazeToReactComponent extends React.Component {
   renderBlaze() {
     this.removeBlaze();
     this.view = Blaze.renderWithData(
@@ -34,4 +34,7 @@ class BlazeToReact extends React.Component {
   }
 }
 
-export default createContainer(props => props, BlazeToReact);
+const container = createContainer(props => props, BlazeToReactComponent);
+
+BlazeToReact = container;
+export default container;
