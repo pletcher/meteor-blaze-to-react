@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import _ from 'lodash';
+import { Blaze } from 'meteor/blaze';
+import { Template  } from 'meteor/templating';
 import { createContainer } from 'meteor/react-meteor-data';
 
 class BlazeToReactComponent extends React.Component {
@@ -36,5 +39,5 @@ class BlazeToReactComponent extends React.Component {
 
 const container = createContainer(props => props, BlazeToReactComponent);
 
-BlazeToReact = container;
+window.BlazeToReact = container;
 export default container;
